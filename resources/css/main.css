@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+a {
+    text-decoration: none;
+    @apply .text-teal-400;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.top-nav-item {
+    @apply .text-gray-700 .text-sm .mr-4 .font-semibold .pb-3 .border-b-2 .border-solid .border-transparent;
+}
+.top-nav-item:hover {
+    text-decoration:none;
+    @apply .text-teal-400 .border-teal-400;
+}
+.hero{
+    background: url("/img/twitter/tailwind_bg.jpg");
+}
+.custom-button{
+    @apply .bg-teal-400 .text-white .font-medium .py-1 .px-4 .rounded-full;
+}
+.custom-button-hover {
+    @apply .bg-teal-500;
+}
